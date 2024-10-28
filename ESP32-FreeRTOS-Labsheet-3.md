@@ -50,6 +50,7 @@ void app_main(void)
 ```
 
 2. รันและบันทึกผลจากโปรแกรมข้างบน
+## ![Freertos-Lab3 2](https://github.com/user-attachments/assets/2461abc0-8eba-44e0-93a6-0db464285110)
 
 3.  แก้ไข code ในส่วนของการสร้าง task 2 (ตามหมายเหตุหมายเลข 3) เป็นดังนี้
 
@@ -63,6 +64,9 @@ void app_main(void)
 ```
 
 4. รันและบันทึกผลจากโปรแกรมข้างบน ได้ผลเหมือนหรือต่างกันอย่างไร
+## ![Freertos-Lab3 4](https://github.com/user-attachments/assets/f71657e9-58ee-4b25-b5e0-22ff9e276915)
+### xTaskCreate จะปล่อยให้ FreeRTOS จัดสรร Task ไปยัง Core ที่มีความเหมาะสมโดยอัตโนมัติ
+### xTaskCreatePinnedToCore จะบังคับให้ Task ทำงานบน Core ที่ระบุ ซึ่งช่วยให้คุณมีการควบคุมที่ดีกว่าเกี่ยวกับการทำงานของ Task บน Core เฉพาะ
 --------
 ### หมายเหตุ API ของ xTaskCreatePinnedToCore
 ``` c
