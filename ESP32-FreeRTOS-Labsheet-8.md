@@ -102,5 +102,6 @@ void app_main(void)
 ```
 
 ### 3. รันและบันทึกผลจากโปรแกรมข้างบน วิเคราะห์ผลที่ได้ว่าเป็นอย่างไร
-
+## ![Freertos-Lab8 3](https://github.com/user-attachments/assets/c40a89d3-506a-416d-a83c-92a4644f1ba7)
+### เมื่อกดปุ่ม, ISR จะถูกเรียกและส่งข้อมูลไปยัง queue
  
